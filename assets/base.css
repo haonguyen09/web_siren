@@ -1,0 +1,92 @@
+:root {
+    --white-color: #fff;
+    --sub-primary: #00754a;
+    --primary:  #E0FFFF;
+    --text-color: #000;
+    --box-color: #f9f9f9;
+}
+
+.grid {
+    max-width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-full-width {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -5px;
+    padding-right: -5px;
+}
+
+.grid-column-2 {
+    width: 16.6667%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid-column-10{
+    width: 83.3334%;
+    padding-Left: 5px;
+    padding-right: 5px;
+}
+
+.grid-column2-4 {
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid-column-3 {
+    width: 33.333%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.separate {
+    border-top: 2px solid var(--text-color);
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 250px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.btn-buy {
+    color: var(--white-color);
+    background: #222;
+    margin-right: 10px;
+}
+
+.btn-buy:hover {
+    background: red;
+}
+
+.btn-icon{
+    color: var(--white-color);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.btn-add {
+    color: var(--white-color);
+    background: #222;
+    display: flex;
+    align-items: center;
+}
+
+.btn-add:hover {
+    background: var(--sub-primary);
+}
